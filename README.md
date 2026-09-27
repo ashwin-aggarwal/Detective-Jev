@@ -12,6 +12,9 @@ question (here, a **Choice** over suspects) and it returns a typed answer, a
 confidence, and a **probability for every option** — fast (~70–500 ms) and cheap
 ($0.042 / 1M input tokens, output free).
 
+## Next Steps
+A note on contamination. These are canonical detective novels, so they almost certainly appear in the model's training data, and we can't currently distinguish inference from recall. Confident identification of a culprit should be read as an open question until we run the blind control (title and character list, no text) and, ideally, a corpus of stories the model has not seen.
+
 ## Pipeline
 
 1. **Parse** a public-domain story  into ordered paragraphs → `data/parsed/<name>.json`.
