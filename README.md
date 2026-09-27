@@ -51,6 +51,11 @@ data/
 
 ## The live demo
 
+https://github.com/user-attachments/assets/3a8d201a-93de-4c6a-9268-480478ccc16f
+
+
+
+
 ```bash
 uv run python scripts/serve.py      # then open http://127.0.0.1:8000
 ```
